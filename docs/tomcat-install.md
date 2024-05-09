@@ -1,15 +1,21 @@
 ## Tomcat 설치
 
 1. tomcat9 다운로드
+```sh
    # wget https://dlcdn.apache.org/tomcat/tomcat-9/v9.0.89/bin/apache-tomcat-9.0.89.tar.gz
+```
 
 2. 압축 풀기
+```sh
    # tar xvfz apache-tomcat-9.0.89.tar.gz
+```
 
 3. 설치
+```sh
    # mv apache-tomcat-9.0.89 /usr/local/poscodx
    # cd /usr/local/poscodx
    # ln -s apache-tomcat-9.0.89 tomcat
+```
 
 4. 포트 확인(/usr/local/poscodx/tomcat/conf/server.xml)
 ```xml
