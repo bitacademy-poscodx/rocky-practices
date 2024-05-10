@@ -52,7 +52,7 @@
 # /usr/local/poscodx/tomcat/bin/catalina.sh stop
 ```
 
-9. 서비스 등록 하기(/usr/lib/systemd/system/tomcat.service)
+9. 서비스 등록 하기([/usr/lib/systemd/system/tomcat.service](https://github.com/bitacademy-poscodx/rocky-practices/blob/main/lx/usr/lib/systemd/system/tomcat.service))
 ```sh
 # systemctl enable tomcat
 ```
@@ -65,8 +65,8 @@
 ```
 
 11. tomcat manager 설정
-   1) tomcat-users.xml 수정
-   2) /usr/local/poscodx/tomcat/webapps/manager/META-INF/context.xml 수정
+   - [/usr/local/poscodx/tomcat/conf/tomcat-users.xml](https://github.com/bitacademy-poscodx/rocky-practices/blob/main/lx/usr/local/poscodx/tomcat/conf/tomcat-users.xml) 수정
+   - [/usr/local/poscodx/tomcat/webapps/manager/META-INF/context.xml](https://github.com/bitacademy-poscodx/rocky-practices/blob/main/lx/usr/local/poscodx/tomcat/webapps/manager/META-INF/context.xml) 수정
       
 12. tomcat 재시작
 ```sh
